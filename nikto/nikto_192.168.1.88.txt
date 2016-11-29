@@ -1,0 +1,41 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.1.88
++ Target Hostname:    192.168.1.88
++ Target Port:        80
++ Start Time:         2016-11-28 21:22:44 (GMT-5)
+---------------------------------------------------------------------------
++ Server: Apache/2.2.8 (Ubuntu) DAV/2
++ Retrieved x-powered-by header: PHP/5.2.4-2ubuntu5.10
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Apache/2.2.8 appears to be outdated (current is at least Apache/2.4.12). Apache 2.0.65 (final release) and 2.2.29 are also current.
++ Uncommon header 'tcn' found, with contents: list
++ Apache mod_negotiation is enabled with MultiViews, which allows attackers to easily brute force file names. See http://www.wisec.it/sectou.php?id=4698ebdc59d15. The following alternatives for 'index' were found: index.php
++ Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ OSVDB-877: HTTP TRACE method is active, suggesting the host is vulnerable to XST
++ /phpinfo.php?VARIABLE=<script>alert('Vulnerable')</script>: Output from the phpinfo() function was found.
++ OSVDB-3268: /doc/: Directory indexing found.
++ OSVDB-48: /doc/: The /doc/ directory is browsable. This may be /usr/doc.
++ OSVDB-12184: /?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F36-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F34-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-12184: /?=PHPE9568F35-D428-11d2-A769-00AA001ACF42: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-3092: /phpMyAdmin/changelog.php: phpMyAdmin is for managing MySQL databases, and should be protected or limited to authorized hosts.
++ Server leaks inodes via ETags, header found with file /phpMyAdmin/ChangeLog, inode: 92462, size: 40540, mtime: Tue Dec  9 12:24:00 2008
++ OSVDB-3092: /phpMyAdmin/ChangeLog: phpMyAdmin is for managing MySQL databases, and should be protected or limited to authorized hosts.
++ OSVDB-3268: /test/: Directory indexing found.
++ OSVDB-3092: /test/: This might be interesting...
++ /phpinfo.php: Output from the phpinfo() function was found.
++ OSVDB-3233: /phpinfo.php: PHP is installed, and a test script which runs phpinfo() was found. This gives a lot of system information.
++ OSVDB-3268: /icons/: Directory indexing found.
++ /phpinfo.php?GLOBALS[test]=<script>alert(document.cookie);</script>: Output from the phpinfo() function was found.
++ /phpinfo.php?cx[]=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<script>alert(foo)</script>: Output from the phpinfo() function was found.
++ OSVDB-3233: /icons/README: Apache default file found.
++ /phpMyAdmin/: phpMyAdmin directory found
++ OSVDB-3092: /phpMyAdmin/Documentation.html: phpMyAdmin is for managing MySQL databases, and should be protected or limited to authorized hosts.
++ 8347 requests: 0 error(s) and 29 item(s) reported on remote host
++ End Time:           2016-11-28 21:23:07 (GMT-5) (23 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
