@@ -1,0 +1,10 @@
+adding 192.168.1.88/32 mode `UDPscan' ports `7,9,11,13,17,19,20,37,39,42,49,52-54,65-71,81,111,161,123,136-170,514-518,630,631,636-640,650,653,921,1023-1030,1900,2048-2050,27900,27960,32767-32780,32831' pps 300
+using interface(s) eth0
+scaning 1.00e+00 total hosts with 1.04e+02 total packets, should take a little longer than 7 Seconds
+sender statistics 298.5 pps with 106 packets sent total
+listener statistics 14 packets recieved 0 packets droped and 0 interface drops
+UDP open	          domain[   53]		from 192.168.1.88  ttl 64 
+UDP open	          sunrpc[  111]		from 192.168.1.88  ttl 64 
+UDP open	      netbios-ns[  137]		from 192.168.1.88  ttl 64 
+UDP open	           shilp[ 2049]		from 192.168.1.88  ttl 64 
+UDP open	         unknown[37593]		from 192.168.1.88  ttl 64 
